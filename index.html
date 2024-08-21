@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product list with cart</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div>
+      <h3 class="desserts"> Desserts</h3>
+    </div>
+    <div class="flex">
+      <div id="main-content">
+
+      </div>
+      <div id="empty-cart">
+        <h3><span id="waffle"> Your Cart (0)</span></h3>
+        <img src="assets/images/illustration-empty-cart.svg" alt="">
+        <p>Your added items will appear here</p>
+      </div>
+
+
+      <div class="second-content">
+        <div class="cart-item">
+          <h3><span id="waffle">Your cart(7)</span></h3>
+          <div class="flex-classic-remove-icon">
+            <div class="Classic">
+              <h4>Classic Tiramisu</h4>
+              <p><span id="waffle">1x</span> @ $.5.50 $5.50</p>
+            </div>
+            <div class="remove-icon"><img src="assets/images/icon-remove-item.svg"></div>
+          </div>
+          <hr>
+
+          <div class="flex-classic-remove-icon">
+            <div class="Classic">
+              <h4>Vanilla Bean Crème Brulee</h4>
+              <p><span id="waffle">4x</span> @ $7.00 $28.00</p>
+            </div>
+            <div class="remove-icon"><img src="assets/images/icon-remove-item.svg"  style="margin-left: 85px;
+    margin-top: 10px; width: 18%;";></div>
+          </div>
+
+          <div class="flex-classic-remove-icon">
+            <div class="Classic">
+          <h4>Vanilla Panna Cotta</h4>
+          <p><span id="waffle">2x</span> @ $6.50 $13.00</p>
+            </div>
+            <div class="remove-icon"><img src="assets/images/icon-remove-item.svg"></div>
+          </div>
+            
+          <hr>
+          <div class="order">
+            <p>Order Total</p>
+            <h4 class="total">$46.50</h4>
+          </div>
+          <p class="carbon">This is a carbon-neutral delivery</p>
+        </div>
+
+        <div id="confirm-order"><button>Confirm Order</button></div>
+      </div>
+
+
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
